@@ -1,0 +1,53 @@
+body {
+	background-color: #eeebdd;
+}
+
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 900px;
+	width: 100%;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+
+div	{
+	width: 70%;
+	margin: auto;
+	padding: 50px;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.2)
+}
+
+p {
+	font-size: 22px;
+	font-family: 'Kiwi Maru', cursive;
+	line-height: 1.65;
+	color: #810000;
+}
+
+h1	{
+	font-size: 48px;
+	font-family: 'Kiwi Maru', cursive;
+	text-align: center;
+	padding-bottom: 40px;
+	color: #1b1717;
+}
+
+a {
+	text-decoration: none;
+	font-size: 20px;
+	color: #630000;
+	display: inline-block;
+	transition: 0.2s ease-in
+	border-bottom: 1px solid transparent;
+}
+
+a:hover {
+	border-bottom-color: #630000;
+}
